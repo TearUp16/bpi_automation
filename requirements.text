@@ -1,0 +1,8 @@
+streamlit
+polars
+pandas
+openpyxl
+XlsxWriter
+fastexcel
+
+python -m PyInstaller --onedir --windowed --name BPI_Automation --add-data "Reference.xlsx;." --collect-all tkcalendar --collect-all playwright --collect-all pandas --collect-all polars --collect-all openpyxl --collect-all xlsxwriter gui_runner.py
